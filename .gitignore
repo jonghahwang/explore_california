@@ -1,6 +1,7 @@
 # Comment: list of files to ignore
 
 tempfile.txt
+tempfile_new.txt
 .DS_Store
 *.zip
 *.gz
