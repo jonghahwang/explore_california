@@ -1,0 +1,13 @@
+# Comment: list of files to ignore
+
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/**.log
+log/*.log[0-9]
+assets/photoshop/
+!assets/videos/tour_*.mp4      # these files will not be ignored
+
+# question: would log/archive/access.log be ignored? NO (be careful with your directory)
+
